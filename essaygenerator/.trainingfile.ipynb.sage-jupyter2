@@ -11,5 +11,5 @@
 {"cell_type":"code","exec_count":34,"id":"d57e06","input":"rebuttal = updated[updated[\"discourse_type\"] == \"Rebuttal\"]\nrebuttal.dropna()\nrebuttal = rebuttal.to_csv(\"rebuttal.csv\", index = False)","pos":8,"type":"cell"}
 {"cell_type":"code","exec_count":35,"id":"6c12ad","input":"rebuttal = pd.read_csv(\"rebuttal.csv\")","pos":9,"type":"cell"}
 {"cell_type":"code","exec_count":38,"id":"aeb648","input":"rebuttal['discourse_text'][23]","output":{"0":{"data":{"text/plain":"\"However, it is an illusion of safety because when people need it the most either they can't find it or reach it because they are stuck in a car.\""},"exec_count":38,"output_type":"execute_result"}},"pos":10,"type":"cell"}
-{"id":0,"time":1656711021190,"type":"user"}
-{"last_load":1656779107109,"type":"file"}
+{"id":0,"time":1657045694412,"type":"user"}
+{"last_load":1657045482356,"type":"file"}
